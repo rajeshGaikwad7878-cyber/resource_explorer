@@ -9,7 +9,7 @@ npm install bootstrap-icons
 npm install --save-dev typescript @types/react @types/react-dom @types/react-router-dom
 npm install react-router-dom bootstrap bootstrap-icons
 
-Start the development server
+Start the development server.
 npm run dev ==> to run project
 
 1. Architecture
