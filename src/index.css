@@ -1,0 +1,81 @@
+
+:root {
+  --bs-body-bg: #f8f9fb;
+  --bs-body-color: #212529;
+
+  --bs-primary: #4f46e5;   
+  --bs-secondary: #6c757d;
+  --bs-warning: #f59e0b;  
+  --bs-success: #16a34a;
+  --bs-danger: #dc2626;
+  --bs-info: #0ea5e9;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #121212;
+  --bs-body-color: #e4e4e7;
+
+  --bs-primary: #6366f1;
+  --bs-secondary: #9ca3af;
+  --bs-warning: #facc15;
+  --bs-success: #22c55e;
+  --bs-danger: #ef4444;
+  --bs-info: #38bdf8;
+}
+
+/* Card polish */
+.card {
+  border-radius: 1.2rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.btn-outline-warning {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.pagination {
+  justify-content: center;
+  gap: 0.25rem;
+}
+.page-item .page-link {
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+}
+
+.form-switch .form-check-input {
+  width: 3rem;   
+  height: 1.5rem;  
+  cursor: pointer;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: var(--bs-primary); 
+  border-color: var(--bs-primary);
+}
+
+.rotate-logo {
+  display: inline-block;
+  animation: spin 4s linear infinite;
+  margin:0 15px 0 10px;
+  color: #4f46e5;
+  font-weight: bolder;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
