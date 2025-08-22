@@ -1,6 +1,16 @@
+Clone the repository
+ git clone https://github.com/rajeshGaikwad7878-cyber/resource_explorer.git (if u not clone project)
+  cd resource_explorer  
+
+After successfuly done run following commands
+**Install additional packages
+npm install
 npm install bootstrap-icons
 npm install --save-dev typescript @types/react @types/react-dom @types/react-router-dom
 npm install react-router-dom bootstrap bootstrap-icons
+
+Start the development server
+npm run dev ==> to run project
 
 1. Architecture
 
